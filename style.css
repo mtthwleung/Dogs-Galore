@@ -1,0 +1,101 @@
+
+* {
+    margin:0;
+    padding:0;
+}
+
+img {
+    height: 160px;
+    width: 180px;
+}
+
+.navbar {
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+
+}
+
+.dog {
+    color: darkorange;
+}
+
+.main-title {
+    width: 200px;
+    padding: 10px 20px;
+    position: relative;
+    left: 100px;
+}
+
+.navlist {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 100%;
+    justify-content: flex-end;
+    position: relative;
+    right: 200px;
+    padding-top: 5px;
+}
+
+.navlist li {
+    list-style: none;
+    padding: 10px 20px;
+}
+
+.navlist li a {
+    text-decoration: none;
+    color: white;
+}
+
+#homelink {
+    color: darkorange;
+}
+
+.main-body {
+    background-image: url("https://img.rawpixel.com/private/static/images/website/2022-05/ns8230-image.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=348b2fd5c7adbc576517dae7c32de4aa");
+    height: 500px;
+    width: 100%;
+}
+
+.text {
+    font-size: 60px;
+    color: white;
+    padding-top: 200px;
+    text-align: center;
+}
+
+.subtext {
+    font-size: 25px;
+    color: white;
+    padding-top: 50px;
+    padding-left: 30%;
+    text-align: center;
+    width: 740px;
+}
+
+.subscription {
+    background-color: green;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.submit {
+    background-color: orange;
+    border: none;
+    padding: 3px 10px;
+}
+
+
+.box {
+    float: left;
+    width: 29%;
+    padding: 1%;
+    margin: 1%;
+    text-align: center;
+    border: 1px solid black;
+}

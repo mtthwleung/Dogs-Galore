@@ -93,9 +93,8 @@ img {
 
 .box {
     float: left;
-    width: 29%;
+    width: 15%;
     padding: 1%;
     margin: 1%;
     text-align: center;
-    border: 1px solid black;
 }
